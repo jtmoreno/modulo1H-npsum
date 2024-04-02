@@ -1,0 +1,76 @@
+/* Normalize.css */
+
+/* Document
+   ========================================================================== */
+
+   html {
+    line-height: 1.15; /* 1 */
+    
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  ul, ol, dl, p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  button, input {
+    overflow: visible;
+  }
+  
+  /* Remove the inner border and padding in Firefox. */
+  
+  button, select {
+    text-transform: none;
+  }
+  
+  /* Reset Firefox's default style for disabled buttons and other controls. */
+  
+  
+  /* Remove the inner border and padding in Firefox. */
+  
+  button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+    padding: 0;
+    border-style: none;
+  }
+  
+  /* Remove the padding in IE 10- */
+  
+  [hidden] {
+    display: none !important;
+  }
+  
+  /* End Normalize.css */
